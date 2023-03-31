@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+    color: #edf0f1;
+}
+
+body 
+{
+    font-family: Arial, sans-serif;
+}
+
+  /* navbar style start here */
+
+  header
+{
+    background-color: firebrick;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px 10%;
+}
+
+.logo
+{
+    background-color: firebrick;
+    padding-top: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+  .navbar
+{
+    background-color: firebrick;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.nav_links
+{
+    background-color: firebrick;
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    background-color: firebrick;
+    list-style: none;
+}
+
+.nav_links li
+{
+    background-color: firebrick;
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a
+{
+    background-color: firebrick;
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    background-color: firebrick;
+    transition: all 0.3s ease 0s;
+}
+a,button
+{
+    background-color: firebrick;
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.nav_links li a:hover
+{
+    color: #0088a9;
+}
+
+button
+{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover
+{
+    background-color:rgba(0, 136, 169, 0.7) ;
+}
+
+.cta
+{
+    background-color: firebrick;
+
+    padding-right: 15px;
+}
+  
+  /* navbar style ends here */
+
+
+  
+  .intro {
+    color: aqua;
+    padding-top: 100px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+
+  
+  /* Styles for the workout boxes */
+  .workout-box {
+    background-color: #f1f1f1;
+    border-radius: 25px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: fit-content;
+    margin-bottom: 40px;
+    
+  }
+  
+  /* Styles for the workout box headers */
+  .workout-box h2 {
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: aqua;
+  }
+  
+  /* Styles for the workout box text */
+  .workout-box p {
+    padding: 15px 10%;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+   /* Styles for the workout box content */
+   .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .left {
+    order: 1;
+  }
+  
+  .right {
+    order: 2;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 150px;
+    line-height: 1.2;
+  }
+  
+  li {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  /* Styles for the workout box content ends here */
+  
+  /* Styles for the beginner workout box */
+  .beginner {
+    background-color: #ffd1dc;
+  }
+  
+  /* Styles for the intermediate workout box */
+  .intermediate {
+    background-color: #ffd699;
+  }
+  
+  /* Styles for the professional workout box */
+  .professional {
+    background-color: #c1e1c1;
+  }
+  
+  /* Styles for the more workout box */
+  .more {
+    background-color: #c9c9ff;
+  }

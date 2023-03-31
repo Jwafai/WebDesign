@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us - Monster Nutrition</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+	<!--Header starts here,the header will contain the navbar only-->
+    <header class="navbar">
+        <a href="index.html">
+            <img class="logo" src="Images/Logo.jpg" alt="logo">
+          </a>
+    
+    <nav>
+        <ul class="nav_links">
+            <li> <a href="workout.html">Gym Workouts</a> </li>
+            <li> <a href="gym-tips.html">Gym Tips</a> </li>
+            <li> <a href="nutrition-tips.html">Nutriton Tips</a> </li>
+            <li> <a href="meal.html">Meals</a> </li>
+            <li> <a href="bmi.html">BMI</a> </li>
+        </ul>
+    </nav>
+    <a class="cta" href="contact.html"> <button>Contact</button> </a>
+    <!--Header ends here-->
+</header>
+
+	<main>
+        <!--This section will have inputfields, i didnt fully complete it since i need javascript, and maybe database-->
+		<section class="contact-section">
+			<div class="container">
+				<h2>Contact Us</h2>
+				<p>Got a question or comment about our gym workouts, tips, nutrition tips, or meals? Drop us a line and we'll get back to you as soon as possible.</p>
+				<form method="post" action="submit-form.php">
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name" required>
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" required>
+					<label for="message">Message</label>
+					<textarea id="message" name="message" required></textarea>
+					<button type="submit">Send</button>
+				</form>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Monster Nutrition</p>
+	</footer>
+</body>
+</html>
