@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px; /* Increase the margin-bottom value to add more space between rows */
+}
+
+label {
+  width: 160px;
+}
+
+input {
+  padding: 4px;
+  width: 160px;
+  height: 20px;
+}
+
+
+
+button {
+  width: 100px;
+  height: 30px;
+}
+  input.invalid {
+    border-color: red;
+  }
+  

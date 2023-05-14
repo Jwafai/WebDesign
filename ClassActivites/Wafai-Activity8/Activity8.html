@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="Activity8.css">
+  <link rel="stylesheet" href=  "jquery-ui.css" >
+
+  <script type="text/javascript" src="external/jquery/jquery.js"></script>
+  <script type="text/javascript" src="jquery-ui.js"></script>
+  <script type="text/javascript" src="Activity8.js"></script>
+
+ 
+</head>
+<body>
+  
+  <form action="/">
+    <div class="container">
+      <label for="language">What programming languages do you know? </label>
+      <input type="text" id="langtxt" name="langtxt" required>
+    </div>
+    <div class="container">
+      <label for="birthday">What is your birthday? </label>
+      <input type="text" id="bdtxt" name="bdtxt">
+    </div>
+    <div class="container">
+      <label for="email">Email Address</label>
+      <input type="email" id="emailtxt" name="emailtxt" placeholder="Enter a valid email address" pattern="^\S+@\S+\.\S+$" required>
+    </div>
+    <div class="container">
+      <label for="website">Website</label>
+      <input type="url" id="websitetxt" name="websitetxt" pattern="^(http|https):\/\/[\w-]+(\.[\w-]+)+([\w.,@?^=%&amp;:\/~+#-]*[\w@?^=%&amp;\/~+#-])?$" required>
+    </div>
+    <button type="submit" id="submitbtn">Submit</button>
+  </form>
+</body>
+</html>
