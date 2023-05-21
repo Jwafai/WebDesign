@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+    color: #edf0f1;
+}
+
+body 
+{
+    font-family: Arial, sans-serif;
+}
+
+  
+  .intro {
+    color: aqua;
+    padding-top: 100px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+
+  
+  /* Styles for the workout boxes */
+  .workout-box {
+    background-color: #f1f1f1;
+    border-radius: 25px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: fit-content;
+    margin-bottom: 40px;
+    
+  }
+  
+  /* Styles for the workout box headers */
+  .workout-box h2 {
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: aqua;
+  }
+  
+  /* Styles for the workout box text */
+  .workout-box p {
+    padding: 15px 10%;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+   /* Styles for the workout box content */
+   .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .left {
+    order: 1;
+  }
+  
+  .right {
+    order: 2;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 150px;
+    line-height: 1.2;
+  }
+  
+  li {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  /* Styles for the workout box content ends here */
+  
+  /* Styles for the beginner workout box */
+  .beginner {
+    background-color: #ffd1dc;
+  }
+  
+  /* Styles for the intermediate workout box */
+  .intermediate {
+    background-color: #ffd699;
+  }
+  
+  /* Styles for the professional workout box */
+  .professional {
+    background-color: #c1e1c1;
+  }
+  
+  /* Styles for the more workout box */
+  .more {
+    background-color: #c9c9ff;
+  }
