@@ -1,0 +1,56 @@
+{
+	"levels": [
+	  {
+		"title": "INTERMEDIATE WORKOUT",
+		"description" :"If you have been working out for a while and are looking for a more challenging routine, the Intermediate level is for you. This level is designed to help you build on the foundation you have created with the Beginner level and push your body to the next level. Workouts should be done five days a week, with two rest days. We recommend working out for three days, taking a day off, then working out for two days, followed by another day off. Duration: 1.5-2 month",
+		"exercises": [
+			{
+			  "number": "1",
+			  "description": "Squat Variations (Back Squats, Front Squats, or Overhead Squats): 4 sets of 6-8 reps"
+			},
+			{
+			  "number": "2",
+			  "description": "Deadlift Variations (Conventional Deadlifts, Sumo Deadlifts, or Romanian Deadlifts): 4 sets of 6-8 reps"
+			},
+			{
+			  "number": "3",
+			  "description": "Barbell Bench Press: 4 sets of 6-8 reps"
+			},
+			{
+			  "number": "4",
+			  "description": "Pull-Ups or Weighted Pull-Ups: 4 sets of 6-8 reps"
+			},
+			{
+			  "number": "5",
+			  "description": "Dumbbell Shoulder Press or Barbell Military Press: 4 sets of 6-8 reps"
+			},
+			{
+			  "number": "6",
+			  "description": "Dumbbell Lunges or Bulgarian Split Squats: 3 sets of 8-10 reps per leg"
+			},
+			{
+			  "number": "7",
+			  "description": "Barbell Rows or T-Bar Rows: 3 sets of 8-10 reps"
+			},
+			{
+			  "number": "8",
+			  "description": "Dumbbell Bicep Curls: 3 sets of 8-10 reps"
+			},
+			{
+			  "number": "9",
+			  "description": "Tricep Dips or Close-Grip Bench Press: 3 sets of 8-10 reps"
+			},
+			{
+			  "number": "10",
+			  "description": "Plank Variations (Front Plank, Side Plank, or Weighted Plank): Hold for 30-60 seconds"
+			},
+			{
+				"number": "11",
+				"description": "Russian Twists or Cable Woodchops: 3 sets of 10-12 reps per side"
+			  }
+		  ]
+	  
+	  }
+	]
+  }
+  

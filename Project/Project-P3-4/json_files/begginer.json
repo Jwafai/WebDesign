@@ -1,0 +1,51 @@
+{
+  "levels": [
+    {
+      "title": "BEGINNER WORKOUT",
+	  "description" :"If you are just starting out with your fitness journey, the Beginner level is for you. Our workout plan for this level is designed to help you learn proper technique, build strength and endurance, and prepare your body for more advanced exercises. This level focuses on full-body workouts, with low weights and high reps to help you build a strong foundation. Workouts should be done five days a week, with two rest days. We recommend working out for two days, taking a day off, then working out for three days, followed by another day off. Duration: 2-3 weeks",
+	  "exercises": [
+		{
+		  "number": "1",
+		  "description": "Wide lat pulldown 8x3"
+		},
+		{
+		  "number": "2",
+		  "description": "Seated close grip cable 8x3"
+		},
+		{
+		  "number": "3",
+		  "description": "Chest press machine/dumbbells 8x3"
+		},
+		{
+		  "number": "4",
+		  "description": "Chest fly machine 8x3"
+		},
+		{
+		  "number": "5",
+		  "description": "Shoulder press machine/dumbbells 8x3"
+		},
+		{
+		  "number": "6",
+		  "description": "Cable lateral raises 8x3"
+		},
+		{
+		  "number": "7",
+		  "description": "Triceps pushdown 8x3"
+		},
+		{
+		  "number": "8",
+		  "description": "Barbell curl 8x3"
+		},
+		{
+		  "number": "9",
+		  "description": "Leg extension 8x3"
+		},
+		{
+		  "number": "10",
+		  "description": "Hamstring curl 8x3"
+		}
+	  ]
+	
+	}
+  ]
+}

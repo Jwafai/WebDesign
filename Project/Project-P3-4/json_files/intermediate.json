@@ -1,0 +1,52 @@
+{
+	"levels": [
+	  {
+		"title": "INTERMEDIATE WORKOUT",
+		"description" :"If you have been working out for a while and are looking for a more challenging routine, the Intermediate level is for you. This level is designed to help you build on the foundation you have created with the Beginner level and push your body to the next level. Workouts should be done five days a week, with two rest days. We recommend working out for three days, taking a day off, then working out for two days, followed by another day off. Duration: 1.5-2 month",
+		"exercises": [
+			{
+			  "number": "1",
+			  "description": "Squats: 3 sets of 8-10 reps"
+			},
+			{
+			  "number": "2",
+			  "description": "Dumbbell Bench Press: 3 sets of 8-10 reps"
+			},
+			{
+			  "number": "3",
+			  "description": "Bent-Over Rows: 3 sets of 8-10 reps"
+			},
+			{
+			  "number": "4",
+			  "description": "Dumbbell Shoulder Press: 3 sets of 8-10 reps"
+			},
+			{
+			  "number": "5",
+			  "description": "Lunges: 3 sets of 10-12 reps per leg"
+			},
+			{
+			  "number": "6",
+			  "description": "Lat Pull-Downs: 3 sets of 8-10 reps"
+			},
+			{
+			  "number": "7",
+			  "description": "Dumbbell Bicep Curls: 3 sets of 10-12 reps"
+			},
+			{
+			  "number": "8",
+			  "description": "Tricep Dips: 3 sets of 10-12 reps"
+			},
+			{
+			  "number": "9",
+			  "description": "Plank: Hold for 30-60 seconds"
+			},
+			{
+			  "number": "10",
+			  "description": "Russian Twists: 3 sets of 10-12 reps per side"
+			}
+		  ]
+	  
+	  }
+	]
+  }
+  

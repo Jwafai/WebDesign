@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us - Monster Nutrition</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link rel="stylesheet" type="text/css" href="navbar.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+</head>
+<body>
+	<!--Header starts here,the header will contain the navbar only-->
+    <header class="navbar">
+        <a href="index.html">
+			<img class="logo" src="images/logo.jpg" alt="logo">		</a>
+    
+    <nav>
+        <ul class="nav_links">
+            <li> <a href="workout.html">Gym Workouts</a> </li>
+            <li> <a href="gym-tips.html">Gym Tips</a> </li>
+            <li> <a href="nutrition-tips.html">Nutriton Tips</a> </li>
+            <li> <a href="meal.html">Meals</a> </li>
+            <li> <a href="bmi.html">BMI</a> </li>
+        </ul>
+    </nav>
+    <a class="cta" href="contact.html"> <button>Contact</button> </a>
+    <!--Header ends here-->
+</header>
+
+<main>
+	<form action="/" id="contact-form">
+		<div class="container">
+		  <label for="name">Name: </label>
+		  <input type="text" id="name" name="name" required>
+		</div>
+		<div class="container">
+		  <label for="email">Email Address</label>
+		  <input type="email" id="email" name="email" placeholder="Enter a valid email address" pattern="^\S+@\S+\.\S+$" required>
+		</div>
+		<div class="container">
+		  <label for="message">Message:</label>
+		  <input type="text" id="message" name="message" required>
+		</div>
+		<button type="submit" id="submitbtn">Submit</button>
+	  </form>
+</main>
+
+	<footer>
+		<p>&copy; 2023 Monster Nutrition</p>
+	</footer>
+
+	<div id="dialog-box" class="dialog-box">
+        <p class="success">Message Sent</p>
+    </div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+	<script src="contact.js"></script>
+
+
